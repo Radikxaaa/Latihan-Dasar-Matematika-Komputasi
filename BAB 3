@@ -1,0 +1,20 @@
+>> % 3.4
+disp(a)
+Heru Dibyo Laksono
+>> disp(b) 
+Jurusan Teknik Elektro
+>> disp(c)
+Fakultas Teknik
+>> disp(d) 
+Universitas Andalas
+>> % 3.5
+>> disp('Reri Afrianita')
+Reri Afrianita
+>>  disp('Jurusan Teknik Lingkungan')
+Jurusan Teknik Lingkungan
+>> disp('Fakultas Teknik') 
+Fakultas Teknik
+>> disp('Universitas Andalas') 
+Universitas Andalas
+>> % 3.6
+>> 
