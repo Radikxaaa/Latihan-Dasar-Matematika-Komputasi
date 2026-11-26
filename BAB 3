@@ -1,3 +1,6 @@
+
+
+
 >> % 3.4
 disp(a)
 Heru Dibyo Laksono
@@ -17,4 +20,159 @@ Fakultas Teknik
 >> disp('Universitas Andalas') 
 Universitas Andalas
 >> % 3.6
->> 
+>> No_Pendaftaran = 123450654321;
+disp(['No. Pendaftaran saya adalah ',num2str(No_Pendaftaran)])
+No. Pendaftaran saya adalah 123450654321
+>> % 3.7
+>> No_nim = input(' Masukkan No Nim Anda : ','s')
+Masukkan No Nim Anda : 95171040
+
+
+No_nim =
+
+    '95171040'
+
+
+>> % 3.8
+>> x = 'Budi Sampurno';
+y = 'PT. Sampoerna Indonesia';
+fprintf('%s\n',x)
+Budi Sampurno
+>> fprintf('%s\n',y)
+PT. Sampoerna Indonesia
+>> % 3.9
+>> p = {'Objek Wisata di Sumatera Barat';
+'Bukittingi dengan Objek Wisata Jam Gadang';
+'Solok dengan Objek Wisata Danau Singkarak';
+'Tanahdatar dengan Objek Wisata Istano Pagaruyung';
+'Sawahlunto dengan Objek Wisata Tambang Dalam'}
+
+p =
+
+  5×1 cell array
+
+    {'Objek Wisata di Sumatera Barat'                  }
+    {'Bukittingi dengan Objek Wisata Jam Gadang'       }
+    {'Solok dengan Objek Wisata Danau Singkarak'       }
+    {'Tanahdatar dengan Objek Wisata Istano Pagaruyung'}
+    {'Sawahlunto dengan Objek Wisata Tambang Dalam'    }
+
+>> % 3.10
+>> whos 
+  Name                Size            Bytes  Class     Attributes
+
+  Lebar               1x1                 8  double              
+  Luas                1x1                 8  double              
+  No_Pendaftaran      1x1                 8  double              
+  No_nim              0x0                 0  char                
+  P                   1x20               40  char                
+  Panjang             1x1                 8  double              
+  a                   1x18               36  char                
+  ans                 1x20               40  char                
+  b                   1x22               44  char                
+  c                   1x15               30  char                
+  d                   1x19               38  char                
+  p                   5x1              1008  cell                
+  t                   1x4                 8  char                
+  x                   1x13               26  char                
+  y                   1x23               46  char                
+
+>> p(1)
+
+ans =
+
+  1×1 cell array
+
+    {'Objek Wisata di Sumatera Barat'}
+
+>> p(2)
+
+ans =
+
+  1×1 cell array
+
+    {'Bukittingi dengan Objek Wisata Jam Gadang'}
+
+>> p(3)
+
+ans =
+
+  1×1 cell array
+
+    {'Solok dengan Objek Wisata Danau Singkarak'}
+
+>> p(4)
+
+ans =
+
+  1×1 cell array
+
+    {'Tanahdatar dengan Objek Wisata Istano Pagaruyung'}
+
+>> p(5)
+
+ans =
+
+  1×1 cell array
+
+    {'Sawahlunto dengan Objek Wisata Tambang Dalam'}
+
+>> % 3.11
+>> % 
+Mahasiswa.Nama = 'Rudi Sujarwo';
+Mahasiwa.NIM = '95171041';
+Mahasiwa.Prodi = 'Teknik Mesin';
+Mahasiswa(2).Nama = 'Rudi Sujarwi';
+Mahasiwa(2).NIM = '95172042';
+Mahasiwa(2).Prodi = 'Teknik Sipil';
+Mahasiswa(3).Nama = 'Rudi Sukarwo';
+Mahasiwa(3).NIM = '95173043';
+Mahasiwa(3).Prodi = 'Teknik Industri';
+Mahasiswa(4).Nama = 'Rudi Sukarwijo';
+Mahasiwa(4).NIM = '95175044';
+Mahasiwa(4).Prodi = 'Teknik Lingkungan';
+Mahasiswa(5).Nama = 'Rudi Sukarmanto';
+Mahasiwa(5).NIM = '95175045';
+Mahasiwa(5).Prodi = 'Teknik Elektro';
+% 
+M1 = Mahasiswa(1)
+M2 = Mahasiswa(2)
+M3 = Mahasiswa(3)
+M4 = Mahasiswa(4)
+M5 = Mahasiswa(5)
+
+M1 = 
+
+  struct with fields:
+
+    Nama: 'Rudi Sujarwo'
+
+
+M2 = 
+
+  struct with fields:
+
+    Nama: 'Rudi Sujarwi'
+
+
+M3 = 
+
+  struct with fields:
+
+    Nama: 'Rudi Sukarwo'
+
+
+M4 = 
+
+  struct with fields:
+
+    Nama: 'Rudi Sukarwijo'
+
+
+M5 = 
+
+  struct with fields:
+
+    Nama: 'Rudi Sukarmanto'
+
+
