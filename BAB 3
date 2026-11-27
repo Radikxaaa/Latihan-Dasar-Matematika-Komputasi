@@ -1,3 +1,67 @@
+>> % BAB 3 (3.1-3.18)
+>> % 3.1 
+>> Panjang = 5; 
+Lebar = 20;
+Luas = Panjang * Lebar 
+
+Luas =
+
+   100
+
+>> % 3.2
+>> P = 'Thanisa Nashwa Azura'
+
+P =
+
+    'Thanisa Nashwa Azura'
+
+>> double(P)
+
+ans = 1×20
+     84     104     97     110     105     115     97     32     78     97     115     104     119     97     32     65     122     117     114     97
+
+>> abs(P)
+
+ans = 1×20
+     84     104     97     110     105     115     97     32     78     97     115     104     119     97     32     65     122     117     114     97
+
+>> 
+>> char(P)
+
+ans =
+
+    'Thanisa Nashwa Azura'
+
+>> t = P(5:8)
+
+t =
+
+    'isa '
+
+>> % 3.3
+>> a = 'Heru Dibyo Laksono'
+
+a =
+
+    'Heru Dibyo Laksono'
+
+>> b = 'Jurusan Teknik Elektro'
+
+b =
+
+    'Jurusan Teknik Elektro'
+
+>> c = 'Fakultas Teknik'
+
+c =
+
+    'Fakultas Teknik'
+
+>> d = 'Universitas Andalas'
+
+d =
+
+    'Universitas Andalas'
 >> % 3.4
 disp(a)
 Heru Dibyo Laksono
@@ -171,5 +235,163 @@ M5 =
   struct with fields:
 
     Nama: 'Rudi Sukarmanto'
+>> % 3.12
+>> % 
+gunung = struct('Situs',{'Rinjani','Merapi'},...    
+'Waktu',{2.34},...    
+'Temperatur',{24  19},...    
+'Tekanan',{1023  1015},...    
+'Ketinggian',{2024 2012}) 
+ % 
+G1 = gunung(1) 
+G2 = gunung(2)
 
 
+gunung = 
+
+  1×2 struct array with fields:
+
+    Situs
+    Waktu
+    Temperatur
+    Tekanan
+    Ketinggian
+
+
+G1 = 
+
+  struct with fields:
+
+         Situs: 'Rinjani'
+         Waktu: 2.3400
+    Temperatur: 24
+       Tekanan: 1023
+    Ketinggian: 2024
+
+
+G2 = 
+
+  struct with fields:
+
+         Situs: 'Merapi'
+         Waktu: 2.3400
+    Temperatur: 19
+       Tekanan: 1015
+    Ketinggian: 2012
+
+>> % 3.13
+>> A = [ 7  8  9; 4  2  6; 1 2 3]
+
+A = 3×3
+     7     8     9
+     4     2     6
+     1     2     3
+
+>> A(:,:,2) = A*4
+
+A(:,:,1) =
+
+     7     8     9
+     4     2     6
+     1     2     3
+
+
+A(:,:,2) =
+
+    28    32    36
+    16     8    24
+     4     8    12
+
+>> A(:,:,3) = eye(3)
+
+A(:,:,1) =
+
+     7     8     9
+     4     2     6
+     1     2     3
+
+
+A(:,:,2) =
+
+    28    32    36
+    16     8    24
+     4     8    12
+
+
+A(:,:,3) =
+
+     1     0     0
+     0     1     0
+     0     0     1
+
+>> % 3.14
+>> A(:,:,3) = 4
+
+A(:,:,1) =
+
+     7     8     9
+     4     2     6
+     1     2     3
+
+
+A(:,:,2) =
+
+    28    32    36
+    16     8    24
+     4     8    12
+
+
+A(:,:,3) =
+
+     4     4     4
+     4     4     4
+     4     4     4
+
+>> % 3.15
+>> A(2,:,1) 
+
+ans = 1×3
+     4     2     6
+
+>> A(2,:,2)
+
+ans = 1×3
+     16     8     24
+
+>> A(2,:,:)
+
+ans(:,:,1) =
+
+     4     2     6
+
+
+ans(:,:,2) =
+
+    16     8    24
+
+
+ans(:,:,3) =
+
+     4     4     4
+
+>> % 3.16
+>> A(:,:,2) = []
+
+A(:,:,1) =
+
+     7     8     9
+     4     2     6
+     1     2     3
+
+
+A(:,:,2) =
+
+     4     4     4
+     4     4     4
+     4     4     4
+
+>> % 3.17
+>> A(:)'
+
+ans = 1×18
+     7     4     1     8     2     2     9     6     3     4     4     4     4     4     4     4     4     4
