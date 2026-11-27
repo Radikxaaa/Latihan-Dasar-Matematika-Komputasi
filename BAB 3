@@ -25,7 +25,6 @@ ans = 1×20
 ans = 1×20
      84     104     97     110     105     115     97     32     78     97     115     104     119     97     32     65     122     117     114     97
 
->> 
 >> char(P)
 
 ans =
@@ -64,7 +63,7 @@ d =
     'Universitas Andalas'
 
 >> % 3.4
-disp(a)
+>>disp(a)
 Heru Dibyo Laksono
 >> disp(b) 
 Jurusan Teknik Elektro
