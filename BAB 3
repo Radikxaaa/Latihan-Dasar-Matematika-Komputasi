@@ -62,6 +62,7 @@ c =
 d =
 
     'Universitas Andalas'
+
 >> % 3.4
 disp(a)
 Heru Dibyo Laksono
@@ -71,6 +72,7 @@ Jurusan Teknik Elektro
 Fakultas Teknik
 >> disp(d) 
 Universitas Andalas
+
 >> % 3.5
 >> disp('Reri Afrianita')
 Reri Afrianita
@@ -80,10 +82,12 @@ Jurusan Teknik Lingkungan
 Fakultas Teknik
 >> disp('Universitas Andalas') 
 Universitas Andalas
+
 >> % 3.6
 >> No_Pendaftaran = 123450654321;
 disp(['No. Pendaftaran saya adalah ',num2str(No_Pendaftaran)])
 No. Pendaftaran saya adalah 123450654321
+
 >> % 3.7
 >> No_nim = input(' Masukkan No Nim Anda : ','s')
 Masukkan No Nim Anda : 95171040
@@ -101,6 +105,7 @@ fprintf('%s\n',x)
 Budi Sampurno
 >> fprintf('%s\n',y)
 PT. Sampoerna Indonesia
+
 >> % 3.9
 >> p = {'Objek Wisata di Sumatera Barat';
 'Bukittingi dengan Objek Wisata Jam Gadang';
@@ -235,6 +240,7 @@ M5 =
   struct with fields:
 
     Nama: 'Rudi Sukarmanto'
+
 >> % 3.12
 >> % 
 gunung = struct('Situs',{'Rinjani','Merapi'},...    
